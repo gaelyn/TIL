@@ -1,4 +1,4 @@
-In `Procfile`
+In Procfile  
 `web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}`
 
 In `config/puma.rb`
@@ -42,12 +42,14 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 plugin :tmp_restart
 ```
 
-In `tmp/pids`
+In tmp/pids
 add a `.keep` file
 
-In terminal
-`bundle lock --add-platform x86_64-linux`
-`git add .`
-`git commit -m "whatevs"`
-`git push heroku main`  
-`heroku open`
+In terminal :
+```
+bundle lock --add-platform x86_64-linux
+git add .
+git commit -m "whatevs"
+git push heroku main
+heroku open
+```
