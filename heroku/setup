@@ -1,7 +1,7 @@
-Procfile
-web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}
+In `Procfile`
+`web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}`
 
-puma.rb
+In `config/puma.rb`
 ```ruby
 # Puma can serve each request in a thread from an internal thread pool.
 # The `threads` method setting takes two numbers: a minimum and maximum.
@@ -42,9 +42,12 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 plugin :tmp_restart
 ```
 
+In `tmp/pids`
+add a `.keep` file
+
 In terminal
 `bundle lock --add-platform x86_64-linux`
 `git add .`
-`git commit -m ".."`
-`git push heroku main`
+`git commit -m "whatevs"`
+`git push heroku main`  
 `heroku open`
