@@ -1,0 +1,5 @@
+[youtube, old but helpful](https://www.youtube.com/watch?v=V8q2sYC1QtI)  
+[the power of self-referential associations in rails](https://medium.com/@ingridf/the-power-of-self-referential-associations-in-rails-and-self-joins-a9d31b181e4)  
+[self-referential relationships in rails](https://medium.com/@TheDickWard/self-referential-relationships-aka-self-joins-in-rails-64f8f36ac311)  
+[self-referential, many-to-many relationships](https://millarian.com/rails/self-referential-many-to-many-relationships/)  
+![Screen Shot 2021-05-10 at 9 16 49 PM](https://user-images.githubusercontent.com/57960885/117830898-ae2d0c80-b239-11eb-8478-87e7c175bede.png)
