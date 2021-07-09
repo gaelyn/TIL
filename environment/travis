@@ -1,0 +1,8 @@
+## Travis Setup
+- from `travis-ci.com` login
+- click on TravisCI in top left corner
+- next to My Repositories click `+` and find repo
+- from Github go to settings > developer settings > personal access token and create a token for that repo
+- copy token
+- open project in command line and run `travis login --com --github-token [personal access token]`
+- in root directory create `.travis.yml` file
