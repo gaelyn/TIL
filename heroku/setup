@@ -1,4 +1,4 @@
-In Procfile  
+In Procfile
 `web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}`
 
 In `config/puma.rb`
@@ -53,3 +53,7 @@ git commit -m "whatevs"
 git push heroku main
 heroku open
 ```
+
+
+To add remote to existing repo:
+`heroku git:remote --app walk-safe-backend`
