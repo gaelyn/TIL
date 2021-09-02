@@ -67,4 +67,4 @@ def self.where(q)
   end
 end
 ```
-It essentially works the same as the `each` method, except that we tell it what to set `results` to in the parentheses, put `results`, and `query` in the pipes, then after each iteration through the block `results` will act as an accumulator and `~*~*magically*~*~` be set to the last line in the block. 
+It essentially works the same as the `each` method, except that we tell it what to set `results` to in the parentheses, put `results` and `query` in the pipes, then after each iteration through the block `results` will act as an accumulator and `~*~*magically*~*~` be set to the last line in the block. 
