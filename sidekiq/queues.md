@@ -18,3 +18,5 @@ The following config just tells which queue should get more attention. Critical 
   - [low, 1]
   - [mailers, 2]
 ```
+
+[Sidekiq Good Practices](https://longliveruby.com/articles/sidekiq-good-practices)
