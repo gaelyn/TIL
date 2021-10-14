@@ -1,4 +1,4 @@
-Was doing some googling on testing Rails logs and found this [Stack Overflow](https://stackoverflow.com/questions/1015739/how-can-we-watch-the-rails-development-log) with a useful command.  
+Was doing some googling on testing Rails logs and found this [Stack Overflow](https://stackoverflow.com/questions/11770552/how-to-get-rails-logger-printing-to-the-console-stdout-when-running-rspec) with a useful command.  
 
 `$ tail -f log/test.log`   
 
