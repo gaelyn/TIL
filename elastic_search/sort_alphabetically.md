@@ -24,3 +24,5 @@ To fix:
 ```ruby
 sort.by("name.raw", order: "asc")
 ```
+
+See also this [Stack Overflow](https://stackoverflow.com/questions/25195653/elastic-search-alphabetical-sorting-based-on-first-character)
